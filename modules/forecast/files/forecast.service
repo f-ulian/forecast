@@ -1,0 +1,9 @@
+[Unit]
+Description=Generates a file with the weather forecast for João Pessoa every minute
+
+[Service]
+WorkingDirectory=/usr/local/bin/
+ExecStart=forecast.sh
+
+[Install]
+WantedBy=multi-user.target

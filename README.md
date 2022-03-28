@@ -1,4 +1,4 @@
-# Weather Forecast from Joao Pessoa
+# Weather Forecast from Joao Pessoa using Shell Script and Puppet
 
 This is a Puppet Managed Script that will create each minute a file with the weather forecast from Joao Pessoa and a backup will be done daily.
 
